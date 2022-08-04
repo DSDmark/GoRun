@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ text-transform: capitalize;
+}
+html{
+  font-size:62.5%;
+font-family: 'Bungee', cursive;
+}
+.main{
+  background:url(../images/955493.jpg);
+  min-height:100vh;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center; 
+}
+.startScreen{
+  display:block;
+  position: absolute;
+  text-align:center;
+  font-size:1.5rem;
+  padding:2rem 4rem;
+  line-height:3rem;
+  background:linear-gradient(180deg,#cdac64,#c1c8d0);
+  box-shadow:0 0 8rem 2rem rgba(150,100,0,0.5);
+  border-radius:0 7rem 0 7rem;
+  color:white;
+  z-index: 100;
+} 
+.hideClass{
+  display:none;
+}
+.gameArea{
+  position:relative;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ overflow: hidden;
+ width:90vmin;
+ height:92vmin;
+ background: #1b1f22;
+ border-left:10px dashed white; 
+ border-right:10px dashed white; 
+ border-top:5px solid white; 
+ border-bottom:5px solid white; 
+}
+.scoreArea{
+  display:flex;
+}
+.score{
+  margin:1rem;
+  background:linear-gradient(0deg,#cdac64,#c1c8d0);
+  box-shadow:0 2rem 8rem 2rem rgba(150,100,0,0.9);
+  padding:.5rem 2.5rem;
+  border-radius:0 0 5rem 5rem;
+  text-align: center;
+  color:white;
+  font-size:2rem;
+}
+.lines{
+ position:absolute;
+ top:0;
+ left:50%;
+ width:10px;
+ height:5rem;
+ background: #fff;
+}
+.playerCar{
+ position:absolute;
+ background-image: url(../images/PngItem_1939941.png);
+ background-repeat: no-repeat;
+ background-position: 200;
+  height:6rem;
+  min-width:10.5rem;
+ background-size:100% 100%;
+ top:80%;
+ transform:rotateZ(90deg);
+ left:50%;
+ z-index:1;
+}
+
+.otherCars{
+  position:absolute;
+ background-image: url(../images/PngItem_5122348.png);
+  height:6.5rem;
+  min-width:12.5rem;
+ background-size:100% 100%;
+ transform:rotateZ(-90deg);
+ z-index:1;
+} 
