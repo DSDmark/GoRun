@@ -29,6 +29,10 @@ Once you are done playing you can close the tab in your browser to quit the game
 
 ---
 
+## Try Out GoRun Demo
+
+<a href="https://dsdmark.github.io/GoRun/" alt="GoRun Demo">GoRun Demo</a>
+
 </div>
 
 ### GoRun
