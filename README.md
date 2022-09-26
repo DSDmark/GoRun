@@ -1,5 +1,11 @@
 <div align="center">
 
+![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/DSDmark/GoRun)
+![GitHub](https://img.shields.io/github/license/DSDmark/GoRun)
+![GitHub language count](https://img.shields.io/github/languages/count/DSDmark/GoRun)
+![GitHub last commit](https://img.shields.io/github/last-commit/DSDmark/GoRun)
+[![Deploy static content to Pages](https://github.com/DSDmark/GoRun/actions/workflows/static.yml/badge.svg)](https://github.com/DSDmark/GoRun/actions/workflows/static.yml)
+
 # AS੯ames Collection
 
 <div>
