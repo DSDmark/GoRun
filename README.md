@@ -43,7 +43,7 @@ Once you are done playing you can close the tab in your browser to quit the game
 
 ### GoRun
 
-![GoRun perview](assets/images/perview.gif "AS੯ames Collection")
+![GoRun preview](assets/images/preview.gif "AS੯ames Collection")
 
 </div>
 
